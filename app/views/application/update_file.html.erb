@@ -1,0 +1,7 @@
+<%= form_tag ({:action => "update"}), ({:multipart => true}),({:'data-type' => 'json'}) do %>
+	<%= file_field_tag :path_to_file %>
+	<%= hidden_field_tag :id_module, "maria" %>
+	<%= hidden_field_tag :id_user, "777" %>
+  <%= hidden_field_tag :old_file_name, "miload.txt" %>
+	<%= submit_tag :save %>
+<% end %>

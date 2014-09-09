@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  document_id: MyString
+  document_path: MyString
+  folder_or_file: false
+  document_name: MyString
+  document_uploader: MyString
+  parent_dir: 1
+
+two:
+  document_id: MyString
+  document_path: MyString
+  folder_or_file: false
+  document_name: MyString
+  document_uploader: MyString
+  parent_dir: 1

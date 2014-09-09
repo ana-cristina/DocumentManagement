@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+
+rails generate model Document document_id:string document_path:string folder_or_file:boolean document_name:string document_uploader:string parent_dir:integer
+
+rails generate model Permission document_id:integer user_id:string document_path:string p_update:boolean p_delete:boolean p_move:boolean p_share:boolean p_view:boolean p_upload:boolean p_create_folder:boolean			
+
+rails generate model User uid:string first_name:string last_name:string is_admin:boolean
+
+rails generate model GithubUsers username:string token:string user_id:string git_id:string 
+
+#le copiezi pe rand in terminal. apoi dai comanda rake db:migrate
